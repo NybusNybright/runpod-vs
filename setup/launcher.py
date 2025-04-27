@@ -228,6 +228,3 @@ def terminate_launcher():
 if __name__ == "__main__":
     Timer(1.0, lambda: webbrowser.open_new("http://localhost:5555")).start()
     app.run(host="0.0.0.0", port=5555, debug=False, use_reloader=False)
-
-
-

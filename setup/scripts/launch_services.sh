@@ -1,7 +1,8 @@
 #!/bin/bash
 
-
 echo "🚀 Launching services..."
+
+mkdir -p /workspace/logs/
 
 # Get pod ID and IP
 POD_ID=$(printenv RUNPOD_POD_ID)

@@ -1,13 +1,9 @@
 {
   "folders": [
     {
-      "name": "REMOTE",
-      "uri": "vscode-remote://ssh-remote+runpod/workspace"
-    },
-    {
-      "name": "LOCAL",
+      "name": "LOCAL (git/runpod-vs)",
       "path": "C:\\Users\\Home\\git\\runpod-vs"
     }
   ],
-  "remoteAuthority": "ssh-remote+runpod"
+  
 }

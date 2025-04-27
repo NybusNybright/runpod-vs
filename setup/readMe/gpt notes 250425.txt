@@ -1,0 +1,70 @@
+Project Setup Summary for RunPod Environment
+
+We have completed basic setup:
+
+SSH connection from local machine to the RunPod pod is working.
+
+Local project files are organized under C:\Users\Home\git\runpod-manual\.
+
+Local .code-workspace for VS Code exists but is not critical to workflow.
+
+A zip file with the project structure and code is attached
+
+Project Workflow:
+
+Task
+
+Where to Do It
+
+Tool
+
+Daily edits
+
+Local (Windows VS Code)
+
+Just edit files manually
+
+Backup checkpoints
+
+Local only
+
+Git (local repo only)
+
+Sync to pod
+
+Manual push script
+
+rsync one-way (local → pod)
+
+Pod usage
+
+Testing and running only
+
+Never editing pod files
+
+Emergency rollback
+
+Local only
+
+VS Code Local History extension
+
+Sync Details:
+
+rsync will be used to push local changes to the pod.
+
+Pod will mirror local files exactly.
+
+Never pull from the pod back to local.
+
+Goals:
+
+Keep the local machine as the source of truth.
+
+Protect against pod resets.
+
+Use Git checkpoints locally when major changes are made.
+
+Keep workflow simple, manual, and reliable.
+
+Please help continue from this point.
+

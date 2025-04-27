@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"name": "REMOTE",
+			"uri": "vscode-remote://ssh-remote+runpod/workspace"
+		}
+	],
+	"remoteAuthority": "ssh-remote+runpod",
+	"settings": {}
+}
